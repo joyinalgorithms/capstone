@@ -1,0 +1,55 @@
+{% extends "reader/layout.html" %}
+{% load static %}
+
+{% block style %}
+    <style>
+        .sidebar {
+            background-color: #46382a;
+            color: white;
+        }
+        .sidebar img {
+            width: 50px;
+            border-radius: 60px;
+        }
+        .nav-link {
+            color: white;
+        }
+        .sidebar-title {
+            font-family: "Pacifico", cursive;
+        }
+    </style>
+{% endblock %}
+
+
+{% block body %}
+<div class="col-2 sidebar vh-100">
+    <div class="row">
+        <div class="col-2">
+            <img src="{% static 'reader/vividink.png' %}" alt="Vivid Ink Logo">
+        </div>
+        <div class="col-10">
+            <h3 class="text-center sidebar-title">
+                Vivid Ink
+            </h3>
+        </div>
+    </div>
+    <hr>
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Discover</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">My Library</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Reading Lists</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Saved Quote</a>
+        </li>
+    </ul>
+</div>
+{% endblock %}
