@@ -1,86 +1,13 @@
-{% extends "reader/layout.html" %}
 {% load static %}
 
-{% block style %}
-    <style>
-        .sidebar {
-            background-color: #46382a;
-            color: rgb(209, 209, 209);
-        }
-        .sidebar img {
-            width: 40px;
-            border-radius: 100px;
-        }
-        .nav-link {
-            color: rgb(209, 209, 209);
-            padding: 12px 16px; 
-            transition: all 0.9s ease;
-        }
-        .nav-link:hover {
-            color: white;
-            background-color: rgba(248, 245, 241, 0.2);
-            border-radius: 15px;
-        }
-        .sidebar-title {
-            font-family: "Pacifico", cursive;
-        }
-    </style>
-{% endblock %}
-
-
-{% block body %}
 <div class="col-2 sidebar vh-100 d-none d-lg-block">
     <div class="d-flex align-items-center">
         <img src="{% static 'reader/vividink.png' %}" alt="Vivid Ink Logo">
-        <h4 class="sidebar-title mt-3">
+        <h4 class="sidebar-title ms-3 mb-0">
             Vivid Ink
         </h4>
     </div>
             
     <hr>
-    <ul class="nav flex-column">
-        <li class="nav-item">
-            <a href="#" class="nav-link">
-                <i class="bi bi-house-door me-2"></i>
-                Home
-            </a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link">
-                <i class="bi bi-compass me-2"></i>
-                Discover
-            </a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link">
-                <i class="bi bi-book me-2"></i>
-                My Library
-            </a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link">
-                <i class="bi bi-journal-bookmark me-2"></i>
-                Reading Lists
-            </a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link">                                                                                                                                                                   
-                <i class="bi bi-quote me-2"></i>                                                                                                                                    
-                Saved Quote
-            </a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link">                                                                                                                                                                   
-                <i class="bi bi-person me-2"></i>                                                                                                                                    
-                Profile
-            </a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link">                                                                                                                                                                   
-                <i class="bi bi-gear me-2"></i>                                                                                                                                    
-                Settings
-            </a>
-        </li>
-    </ul>
+    {% include "reader/sidebarMenu.html" %}
 </div>
-{% endblock %}
