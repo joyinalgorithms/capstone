@@ -1,58 +1,64 @@
 .body {
-        background-color: #f8f5f1ee;
-      }
-      .sidebar {
-        background-color: #46382a;
-        color: rgb(209, 209, 209);
-      }
-      .sidebar img {
-        width: 40px;
-        border-radius: 100px;
-      }
-      .nav-link {
-        color: rgb(209, 209, 209);
-        padding: 12px 16px;
-        transition: all 0.3s ease;
-      }
-      .nav-link:hover,
-      .nav-link:focus,
-      .nav-link:active {
-        color: white;
-        background-color: rgba(248, 245, 241, 0.2);
-        border-radius: 15px;
-      }
-      .sidebar-title {
-        font-family: "Pacifico";
-      }
-      .search-box {
-        width: 500px;
-        border: 1px solid #d8d1c8;
-        border-radius: 30px;
-        overflow: hidden;
-        background: #f8f6f3;
-      }
+    background-color: #f8f5f1ee;
+    font-family: "EB Garamond", serif;
+    margin-left: 15%;
+  }
+  .sidebar {
+    background-color: #46382a;
+    color: rgb(209, 209, 209);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+  }
+  .sidebar img {
+    width: 40px;
+    border-radius: 100px;
+  }
+  .nav-link {
+    color: rgb(209, 209, 209);
+    padding: 12px 16px;
+    transition: all 0.3s ease;
+  }
+  .nav-link:hover,
+  .nav-link:focus,
+  .nav-link:active {
+    color: white;
+    background-color: rgba(248, 245, 241, 0.2);
+    border-radius: 15px;
+  }
+  .sidebar-title {
+    font-family: "Pacifico";
+  }
+  .search-box {
+    width: 500px;
+    border: 1px solid #d8d1c8;
+    border-radius: 30px;
+    overflow: hidden;
+    background: #f8f6f3;
+  }
 
-      .search-box .input-group-text,
-      .search-box .form-control {
-        border: none;
-        background: transparent;
-      }
+  .search-box .input-group-text,
+  .search-box .form-control {
+    border: none;
+    background: transparent;
+  }
 
-      .search-box .input-group-text {
-        padding-left: 16px;
-        color: #8a8175;
-      }
+  .search-box .input-group-text {
+    padding-left: 16px;
+    color: #8a8175;
+  }
 
-      .search-box .form-control {
-        padding: 12px 16px 12px 8px;
-        font-size: 15px;
-      }
+  .search-box .form-control {
+    padding: 12px 16px 12px 8px;
+    font-size: 15px;
+  }
 
-      .search-box .form-control:focus {
-        box-shadow: none;
-        background: transparent;
-      }
+  .search-box .form-control:focus {
+    box-shadow: none;
+    background: transparent;
+  }
 
-      .search-box .form-control::placeholder {
-        color: #8a8175;
-      }
+  .search-box .form-control::placeholder {
+    color: #8a8175;
+  }

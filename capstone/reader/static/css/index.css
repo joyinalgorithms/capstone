@@ -4,12 +4,20 @@
     height: 300px;
     border-radius: 15px;
     padding: 20px;
-    font-family: "EB Garamond", serif;
 }
 .welcome-badge {
     background: #efe4d7;
     padding: 4px 8px;
     font-size: 12px;
+    border-radius: 40px;
+}
+.badge {
+    display: inline-flex;
+    align-items: center;
+    background: #efe4d7;
+    padding: 6px;
+    color: black;
+    width: max-content;
 }
 .btn-reading {
     background: #9b6737;
@@ -21,4 +29,14 @@
     border: 1px solid #9b6737;
     background: transparent;
     border-radius: 15px;
+}
+.book-item-container {
+    width: 150px;
+    height: 270px;
+}
+.book-item {
+    width: 100%;
+    height: 200px;
+    background-color:#9b6737;
+    color: white;
 }
