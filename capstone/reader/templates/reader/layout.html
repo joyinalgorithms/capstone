@@ -1,4 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
+{% load static %}
 <html>
   <head>
     <title>{% block title %}{% endblock %}</title>
@@ -67,7 +68,7 @@
         >
           <div class="offcanvas-header">
             <img
-              src="reader/vividink.png"
+              src="{% static 'reader/vividink.png' %}"
               alt="Vivid Ink Logo"
             />
             <h4 class="sidebar-title ms-3 mb-0">Vivid Ink</h4>
