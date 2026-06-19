@@ -1,0 +1,24 @@
+.hero-card {
+    background-color: #f2ece5;
+    box-shadow: 5px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: "EB Garamond", serif;
+}
+.welcome-badge {
+    background: #efe4d7;
+    padding: 4px 8px;
+    font-size: 12px;
+}
+.btn-reading {
+    background: #9b6737;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.btn-writing {
+    border: 1px solid #9b6737;
+    background: transparent;
+    border-radius: 15px;
+}
