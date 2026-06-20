@@ -5,6 +5,13 @@
     border-radius: 15px;
     padding: 20px;
 }
+.card{
+    background-color: #f2ece5;
+    box-shadow: 5px;
+    height: 50px;
+    border-radius: 15px;
+    padding-top: 10px;
+}
 .welcome-badge {
     background: #efe4d7;
     padding: 4px 8px;
@@ -39,4 +46,12 @@
     height: 200px;
     background-color:#9b6737;
     color: white;
+}
+.genre-card {
+    border: 1px solid #9b6737;
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    color: black;
+    border-radius: 10px;
 }

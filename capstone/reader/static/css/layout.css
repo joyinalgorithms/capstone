@@ -1,7 +1,8 @@
 .body {
     background-color: #f8f5f1ee;
     font-family: "EB Garamond", serif;
-    margin-left: 15%;
+    margin-left: 16%;
+    padding-bottom: 1%;
   }
   .sidebar {
     background-color: #46382a;
@@ -9,7 +10,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 15%;
+    width: 16%;
   }
   .sidebar img {
     width: 40px;
