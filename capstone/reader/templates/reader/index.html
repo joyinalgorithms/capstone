@@ -1,7 +1,13 @@
-{% extends "reader/layout.html" %} {% load static %} {% block title %} Home
-{%endblock %} {% block style %}
+{% extends "reader/layout.html" %} 
+{% load static %} 
+{% block title %} 
+Home
+{%endblock %} 
+{% block style %}
 <link rel="stylesheet" href="{% static 'css/index.css' %}" />
-{% endblock %} {% block body %} {% include 'reader/searchbar.html' %}
+{% endblock %} 
+{% block body %} 
+{% include 'reader/searchbar.html' %}
 <section class="container-fluid hero-section">
   <div class="hero-card d-flex flex-row">
     <!--LEFT SIDE-->

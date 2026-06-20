@@ -18,14 +18,6 @@
     font-size: 12px;
     border-radius: 40px;
 }
-.badge {
-    display: inline-flex;
-    align-items: center;
-    background: #efe4d7;
-    padding: 6px;
-    color: black;
-    width: max-content;
-}
 .btn-reading {
     background: #9b6737;
     color: white;

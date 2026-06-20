@@ -63,3 +63,11 @@
   .search-box .form-control::placeholder {
     color: #8a8175;
   }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    background: #efe4d7;
+    padding: 6px;
+    color: black;
+    width: max-content;
+}
