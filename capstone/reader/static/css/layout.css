@@ -1,5 +1,7 @@
+body {
+  background-color: #f8f5f1ee;
+}
 .body {
-    background-color: #f8f5f1ee;
     font-family: "EB Garamond", serif;
     margin-left: 16%;
     padding: 20px;
