@@ -1,6 +1,67 @@
 {% extends "reader/layout.html" %} 
 {% load static %} 
-{% block title %} Saved Quote {%endblock %} 
+{% block title %} Saved Quotes {%endblock %} 
+
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/savedquote.css' %}" />
+{% endblock %}
 {% block body %}
-Saved Quote
+<section class="container-fluid mt-2 mb-3">
+  <h3>Saved Quotes</h3>
+  <p>5 quotes collected from your reading</p>
+</section>
+
+<section class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gap-4">
+        <div class="quote-card d-flex flex-column">
+            <p class="quoted-text">"The stars don't care about our wars, but we fight beneath them anyway, hoping they notice."</p>
+            <p class="small">Author name</p>
+            <div class="d-flex flex-row justify-content-between ">
+                <p class="small">Book title</p>
+                <p class="badge">Chapter 2</p>
+            </div>
+        </div>
+        <div class="quote-card d-flex flex-column">
+            <p class="quoted-text">"The stars don't care about our wars, but we fight beneath them anyway, hoping they notice."</p>
+            <p class="small">Author name</p>
+            <div class="d-flex flex-row justify-content-between ">
+                <p class="small">Book title</p>
+                <p class="badge">Chapter 2</p>
+            </div>
+        </div>
+        <div class="quote-card d-flex flex-column">
+            <p class="quoted-text">"The stars don't care about our wars, but we fight beneath them anyway, hoping they notice."</p>
+            <p class="small">Author name</p>
+            <div class="d-flex flex-row justify-content-between ">
+                <p class="small">Book title</p>
+                <p class="badge">Chapter 2</p>
+            </div>
+        </div>
+        <div class="quote-card d-flex flex-column">
+            <p class="quoted-text">"The stars don't care about our wars, but we fight beneath them anyway, hoping they notice."</p>
+            <p class="small">Author name</p>
+            <div class="d-flex flex-row justify-content-between ">
+                <p class="small">Book title</p>
+                <p class="badge">Chapter 2</p>
+            </div>
+        </div>
+        <div class="quote-card d-flex flex-column">
+            <p class="quoted-text">"The stars don't care about our wars, but we fight beneath them anyway, hoping they notice."</p>
+            <p class="small">Author name</p>
+            <div class="d-flex flex-row justify-content-between ">
+                <p class="small">Book title</p>
+                <p class="badge">Chapter 2</p>
+            </div>
+        </div>
+        <div class="quote-card d-flex flex-column">
+            <p class="quoted-text">"The stars don't care about our wars, but we fight beneath them anyway, hoping they notice."</p>
+            <p class="small">Author name</p>
+            <div class="d-flex flex-row justify-content-between ">
+                <p class="small">Book title</p>
+                <p class="badge">Chapter 2</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 {% endblock %}

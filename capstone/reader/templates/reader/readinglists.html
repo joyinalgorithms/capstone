@@ -1,6 +1,89 @@
 {% extends "reader/layout.html" %} 
 {% load static %} 
 {% block title %} Reading Lists {%endblock %} 
+{% block style %}
+{% endblock %}
 {% block body %}
-Reading Lists
+<section class="container-fluid mt-2">
+  <h3>Reading Lists </h3>
+  <p>4 books saved for later</p>
+  {% include 'reader/searchbar.html' %} 
+</section>
+
+<section>
+    <div class="container">
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 gap-4">
+      <div class="book-item-card d-flex flex-column">
+        <img src="{% static 'reader/bookcover.png' %}" alt="" />
+        <h4>Book Title</h4>
+        <p>by Author's name</p>
+        <span class="badge">adventure</span>
+        <div class="d-flex flex-row justify-content-start gap-1">
+          <i class="bi-eye"></i>
+          1M reads
+        </div>
+      </div>
+      <div class="book-item-card d-flex flex-column">
+        <img src="{% static 'reader/bookcover.png' %}" alt="" />
+        <h4>Book Title</h4>
+        <p>by Author's name</p>
+        <span class="badge">adventure</span>
+        <div class="d-flex flex-row justify-content-start gap-1">
+          <i class="bi-eye"></i>
+          1M reads
+        </div>
+      </div>
+      <div class="book-item-card d-flex flex-column">
+        <img src="{% static 'reader/bookcover.png' %}" alt="" />
+        <h4>Book Title</h4>
+        <p>by Author's name</p>
+        <span class="badge">adventure</span>
+        <div class="d-flex flex-row justify-content-start gap-1">
+          <i class="bi-eye"></i>
+          1M reads
+        </div>
+      </div>
+      <div class="book-item-card d-flex flex-column">
+        <img src="{% static 'reader/bookcover.png' %}" alt="" />
+        <h4>Book Title</h4>
+        <p>by Author's name</p>
+        <span class="badge">adventure</span>
+        <div class="d-flex flex-row justify-content-start gap-1">
+          <i class="bi-eye"></i>
+          1M reads
+        </div>
+      </div>
+      <div class="book-item-card d-flex flex-column">
+        <img src="{% static 'reader/bookcover.png' %}" alt="" />
+        <h4>Book Title</h4>
+        <p>by Author's name</p>
+        <span class="badge">adventure</span>
+        <div class="d-flex flex-row justify-content-start gap-1">
+          <i class="bi-eye"></i>
+          1M reads
+        </div>
+      </div>
+      <div class="book-item-card d-flex flex-column">
+        <img src="{% static 'reader/bookcover.png' %}" alt="" />
+        <h4>Book Title</h4>
+        <p>by Author's name</p>
+        <span class="badge">adventure</span>
+        <div class="d-flex flex-row justify-content-start gap-1">
+          <i class="bi-eye"></i>
+          1M reads
+        </div>
+      </div>
+      <div class="book-item-card d-flex flex-column">
+        <img src="{% static 'reader/bookcover.png' %}" alt="" />
+        <h4>Book Title</h4>
+        <p>by Author's name</p>
+        <span class="badge">adventure</span>
+        <div class="d-flex flex-row justify-content-start gap-1">
+          <i class="bi-eye"></i>
+          1M reads
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 {% endblock %}
