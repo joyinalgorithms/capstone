@@ -72,9 +72,9 @@ body {
   .badge {
     display: inline-flex;
     align-items: center;
-    background: #efe4d7;
+    background:  #9b6737;
     padding: 6px;
-    color: black;
+    color: white;
     width: max-content;
 }
 .book-item-card {

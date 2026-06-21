@@ -43,4 +43,25 @@
     </div>
   </div>
 </section>
+
+
+<section>
+  <!--Reading Lists-->
+  <h3>Readings Lists</h3>
+  <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 gap-2">
+        {% for book in books %}
+        <div class="book-item-container d-flex flex-column gap-1 mb-3">
+          <div class="book-item">
+            <img src="{% static book.image '%}" alt="">
+          </div>
+          <div>
+            <p><strong>{{ book.title }}</strong></p>
+            <p class="text-muted">by {{ book.author }}</p>
+          </div>
+          <span class="badge">{{ book.genre }}</span>
+          <p>{{ book.reads }} Reads</p>
+        </div>
+        {% endfor %}
+      </div>
+</section>
 {% endblock %}
