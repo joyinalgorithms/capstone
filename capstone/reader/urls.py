@@ -9,6 +9,5 @@ urlpatterns = [
     path("reading-lists", views.readinglists, name="reading-lists"),
     path("saved-quote", views.savedquote, name="saved-quote"),
     path("profile", views.profile, name="profile"),
-    path("settings", views.settings, name="settings"),
 
 ]
